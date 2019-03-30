@@ -2,6 +2,8 @@
 #define CO_H
 #include <iostream>
 #include <cmath>
+#include <fstream>
+
 using namespace std;
 
 class Complex {
