@@ -28,3 +28,7 @@ Complex del(Complex a, Complex b) {
         result.im = (b.re * a.im - a.re * b.im) / (pow(b.re, 2) + pow(b.im, 2));
         return result;
 }
+
+float abs(Complex a) {
+    return sqrt(pow(a.re,2) + pow(a.im,2));
+}
