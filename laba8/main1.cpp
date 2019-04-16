@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // Из лаб-ой 6.1
 #include <string>
 using namespace std;
 
