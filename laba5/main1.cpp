@@ -1,3 +1,10 @@
+#define _USE_MATH_DEFINES
+#include <cmath>
+#include <iostream>
+using namespace std;
+
+class Complex {
+private:
     float re;
     float im;
 public:
