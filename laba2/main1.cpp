@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 
-int pls(int a, int b);
-int mins(int a, int b);
+int pls(int a, int b);          //сложение
+int mins(int a, int b);         //вычитание
 
 
 int main()
