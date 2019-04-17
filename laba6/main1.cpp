@@ -3,7 +3,7 @@
 using namespace std;
 
 
-class Student {
+class Student {                                           // основсной класс студента
     public:
         string name;
         string family;
@@ -18,11 +18,11 @@ class Student {
         }
 };
 
-class STAROSTA: public Student {
+class STAROSTA: public Student {                      //староста от студента
     public:
         int reiting;
         string phone;
-        Headman(string name, string family, string group, int age,int reiting, string phone) : Student(name,family,group,age) {
+        STAROSTA(string name, string family, string group, int age,int reiting, string phone) : Student(name,family,group,age) {
             this->reiting = reiting;
             this->phone = phone;
         }
